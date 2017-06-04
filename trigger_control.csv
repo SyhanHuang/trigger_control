@@ -1,0 +1,70 @@
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+
+# Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+# File: D:\trigger\trigger_control.csv
+# Generated on: Sat Jun 03 19:20:01 2017
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Transceiver Analog Settings Protocol,VCCR_GXB/VCCT_GXB Voltage,Transceiver I/O Pin Termination,Transceiver Dedicated Refclk Pin Termination,Transmitter Common Mode Driver Voltage,Transmitter Slew Rate Control,Transmitter Differential Output Voltage,Receiver Buffer Common Mode Voltage,Strict Preservation
+clk,Input,PIN_M9,3B,B3B_N0,PIN_M9,3.3-V LVTTL,,,,,,,,,,,,,
+led[9],Output,PIN_L1,2A,B2A_N0,PIN_L1,3.3-V LVTTL,,,,,,,,,,,,,
+led[8],Output,PIN_L2,2A,B2A_N0,PIN_L2,3.3-V LVTTL,,,,,,,,,,,,,
+led[7],Output,PIN_U1,2A,B2A_N0,PIN_U1,3.3-V LVTTL,,,,,,,,,,,,,
+led[6],Output,PIN_U2,2A,B2A_N0,PIN_U2,3.3-V LVTTL,,,,,,,,,,,,,
+led[5],Output,PIN_N1,2A,B2A_N0,PIN_N1,3.3-V LVTTL,,,,,,,,,,,,,
+led[4],Output,PIN_N2,2A,B2A_N0,PIN_N2,3.3-V LVTTL,,,,,,,,,,,,,
+led[3],Output,PIN_Y3,2A,B2A_N0,PIN_Y3,3.3-V LVTTL,,,,,,,,,,,,,
+led[2],Output,PIN_W2,2A,B2A_N0,PIN_W2,3.3-V LVTTL,,,,,,,,,,,,,
+led[1],Output,PIN_AA1,2A,B2A_N0,PIN_AA1,3.3-V LVTTL,,,,,,,,,,,,,
+led[0],Output,PIN_AA2,2A,B2A_N0,PIN_AA2,3.3-V LVTTL,,,,,,,,,,,,,
+load,Input,PIN_M6,3A,B3A_N0,PIN_M6,3.3-V LVTTL,,,,,,,,,,,,,
+out[2],Output,PIN_N21,5B,B5B_N0,PIN_N21,3.3-V LVTTL,,,,,,,,,,,,,
+out[1],Output,PIN_R21,5A,B5A_N0,PIN_R21,3.3-V LVTTL,,,,,,,,,,,,,
+out[0],Output,PIN_N20,5B,B5B_N0,PIN_N20,3.3-V LVTTL,,,,,,,,,,,,,
+reset,Input,PIN_P22,5A,B5A_N0,PIN_P22,3.3-V LVTTL,,,,,,,,,,,,,
+seg1[6],Output,PIN_AA22,4A,B4A_N0,PIN_AA22,3.3-V LVTTL,,,,,,,,,,,,,
+seg1[5],Output,PIN_Y21,4A,B4A_N0,PIN_Y21,3.3-V LVTTL,,,,,,,,,,,,,
+seg1[4],Output,PIN_Y22,4A,B4A_N0,PIN_Y22,3.3-V LVTTL,,,,,,,,,,,,,
+seg1[3],Output,PIN_W21,4A,B4A_N0,PIN_W21,3.3-V LVTTL,,,,,,,,,,,,,
+seg1[2],Output,PIN_W22,4A,B4A_N0,PIN_W22,3.3-V LVTTL,,,,,,,,,,,,,
+seg1[1],Output,PIN_V21,4A,B4A_N0,PIN_V21,3.3-V LVTTL,,,,,,,,,,,,,
+seg1[0],Output,PIN_U21,4A,B4A_N0,PIN_U21,3.3-V LVTTL,,,,,,,,,,,,,
+seg2[6],Output,PIN_U22,4A,B4A_N0,PIN_U22,3.3-V LVTTL,,,,,,,,,,,,,
+seg2[5],Output,PIN_AA17,4A,B4A_N0,PIN_AA17,3.3-V LVTTL,,,,,,,,,,,,,
+seg2[4],Output,PIN_AB18,4A,B4A_N0,PIN_AB18,3.3-V LVTTL,,,,,,,,,,,,,
+seg2[3],Output,PIN_AA18,4A,B4A_N0,PIN_AA18,3.3-V LVTTL,,,,,,,,,,,,,
+seg2[2],Output,PIN_AA19,4A,B4A_N0,PIN_AA19,3.3-V LVTTL,,,,,,,,,,,,,
+seg2[1],Output,PIN_AB20,4A,B4A_N0,PIN_AB20,3.3-V LVTTL,,,,,,,,,,,,,
+seg2[0],Output,PIN_AA20,4A,B4A_N0,PIN_AA20,3.3-V LVTTL,,,,,,,,,,,,,
+seg3[6],Output,PIN_AB21,4A,B4A_N0,PIN_AB21,3.3-V LVTTL,,,,,,,,,,,,,
+seg3[5],Output,PIN_AB22,4A,B4A_N0,PIN_AB22,3.3-V LVTTL,,,,,,,,,,,,,
+seg3[4],Output,PIN_V14,4A,B4A_N0,PIN_V14,3.3-V LVTTL,,,,,,,,,,,,,
+seg3[3],Output,PIN_Y14,4A,B4A_N0,PIN_Y14,3.3-V LVTTL,,,,,,,,,,,,,
+seg3[2],Output,PIN_AA10,3B,B3B_N0,PIN_AA10,3.3-V LVTTL,,,,,,,,,,,,,
+seg3[1],Output,PIN_AB17,4A,B4A_N0,PIN_AB17,3.3-V LVTTL,,,,,,,,,,,,,
+seg3[0],Output,PIN_Y19,4A,B4A_N0,PIN_Y19,3.3-V LVTTL,,,,,,,,,,,,,
+sw[9],Input,PIN_AB12,4A,B4A_N0,PIN_AB12,3.3-V LVTTL,,,,,,,,,,,,,
+sw[8],Input,PIN_AB13,4A,B4A_N0,PIN_AB13,3.3-V LVTTL,,,,,,,,,,,,,
+sw[7],Input,PIN_AA13,4A,B4A_N0,PIN_AA13,3.3-V LVTTL,,,,,,,,,,,,,
+sw[6],Input,PIN_AA14,4A,B4A_N0,PIN_AA14,3.3-V LVTTL,,,,,,,,,,,,,
+sw[5],Input,PIN_AB15,4A,B4A_N0,PIN_AB15,3.3-V LVTTL,,,,,,,,,,,,,
+sw[4],Input,PIN_AA15,4A,B4A_N0,PIN_AA15,3.3-V LVTTL,,,,,,,,,,,,,
+sw[3],Input,PIN_T12,4A,B4A_N0,PIN_T12,3.3-V LVTTL,,,,,,,,,,,,,
+sw[2],Input,PIN_T13,4A,B4A_N0,PIN_T13,3.3-V LVTTL,,,,,,,,,,,,,
+sw[1],Input,PIN_V13,4A,B4A_N0,PIN_V13,3.3-V LVTTL,,,,,,,,,,,,,
+sw[0],Input,PIN_U13,4A,B4A_N0,PIN_U13,3.3-V LVTTL,,,,,,,,,,,,,
+trigger,Input,PIN_T17,5A,B5A_N0,PIN_T17,3.3-V LVTTL,,,,,,,,,,,,,

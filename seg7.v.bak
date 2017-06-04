@@ -1,0 +1,19 @@
+module Seg7(input [3:0] num, output [0:7] seg);
+   reg [7:0] nseg;
+    always @(num) begin
+        case (num)
+            4'b0000: nseg = 8'b11111100; // 0
+            4'b0001: nseg = 8'b01100000; // 1
+            4'b0010: nseg = 8'b11011010; // 2
+            4'b0011: nseg = 8'b11110010; // 3
+            4'b0100: nseg = 8'b01100110; // 4
+            4'b0101: nseg = 8'b10110110; // 5
+            4'b0110: nseg = 8'b10111110; // 6
+            4'b0111: nseg = 8'b11100100; // 7
+            4'b1000: nseg = 8'b11111110; // 8
+            4'b1001: nseg = 8'b11110110; // 9
+            default: nseg = 8'b00000000; //  
+        endcase
+    end
+   assign seg = ~nseg;
+endmodule
